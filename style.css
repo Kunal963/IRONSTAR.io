@@ -1,0 +1,94 @@
+body {
+    font-size: 15pt;
+    margin: 14px;
+    padding: 0px;
+}
+.navbar{
+  background-color: red;
+  border-radius: 50px;
+  box-shadow: 9px 7px 8px blue;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 27px 20px;
+}
+.navbar li:before{
+  content: "\2726";
+  color: blue;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li a{
+  padding: 23px 3px;
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  padding: 17px 75px;
+  float: right;
+}
+.navbar li a:hover{
+  color: blue;
+}
+#active a{
+  color: blue;
+}
+#c{
+  text-decoration: none;
+  background-color: red;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: blue;
+  font-style: italic;
+}
+#xp{
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: red;
+  font-style: italic;
+}
+.head{
+  color: red;
+  font-style: italic;
+}
+.headd{
+  color: blue;
+  font-style: italic;
+}
+.HOME{
+  text-align: center;
+  color: crimson;
+  font-style: italic;
+}
+.about{
+  text-align: center;
+  color: crimson;
+  font-style: italic;
+}
+.con{
+  text-align: center;
+  color: crimson;
+  font-style: italic;
+}
+.web{
+  text-align: center;
+  color: crimson;
+  font-style: italic;
+}
+.mg {
+  color: red;
+  font-style: italic;
+}
+.mmg {
+  color: blue;
+  font-style: italic;
+}
+.td{
+  color: white;
+}
